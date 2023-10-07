@@ -70,8 +70,8 @@ code span {
  */
 
 #header {
-    background-color: #FA8BFF;
-    background-image: linear-gradient(315deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-color: #1F2424;
+    background-image: linear-gradient(315deg,  #CB8830 0%, #F1C167 52%, #EAE7E4 90%);
     position: relative;
 }
 #header h1, #header h2{
@@ -92,10 +92,14 @@ code span {
     background-position: 100%;
 }
 #header .description{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
 }
 #header .navbar-brand img {
-    max-height: 80px;
+    max-height: 150px;
     width: auto;
 }
 #cover-img img {
@@ -106,9 +110,9 @@ code span {
 #btemplates-social li{
 }
 #btemplates-social li a{
-    border-radius: 4px;
-    color: var(--solarized-base03);
-    font-size: 1.2rem;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1.75rem;
     padding-left: 0.5rem;
     transition: font-size 0.3s;
 }
@@ -230,16 +234,23 @@ code span {
 }
 #btemplates-1 .post-title, #btemplates-1 .post-title a{
     font-weight: bold;
-    color: var(--bs-light);
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    font-size: 5rem;
 }
 #btemplates-1 .post-tags a{
-    color: var(--solarized-red);
+    color:#f9bd4c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+
 }
 #btemplates-1 .post-tags::before{
     content: "\f07b";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    font-size: 1.7rem;
 }
 #btemplates-2 .container-fluid, #profile-info .container-fluid{
     background-color: var(--solarized-base2);
@@ -341,7 +352,7 @@ code span {
     font-weight: 600;
 }
 #btemplates-slider .widget-content {
-    text-align: center;
+    text-align: left;
 }
 #btemplates-slider .carousel-caption {
     background-color: rgba(17, 17, 17, 0.5);
@@ -672,7 +683,7 @@ blockquote p:first-child:first-letter {
     margin: 0 0 3rem 0;
 }
 #post-navigation a {
-    color: var(--bs-gray) !important;
+    color: #005eac !important;
 }
 .nav-post-thumb img, .nav-post-thumb svg {
     width: 125px;
