@@ -355,6 +355,22 @@ plates-1 .post:hover .post-tags1 a{
  #visual{
     max-width: 100%;
  }
+ #row
+ {
+    max-width: 100%;
+ }
+ #post-author-label
+ {
+   
+    max-width: 2000px;
+ }
+ .post-author-label{
+    color: #F1C167;
+    background-color: #000000;
+    max-width: 20px;
+    font-size: 1.5rem;
+    border-radius: 10%;
+ }
 #btemplates-slider {
     padding: 0.25rem;
     position: relative;
