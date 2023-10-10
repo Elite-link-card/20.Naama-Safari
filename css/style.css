@@ -6,6 +6,7 @@
     --headings-font: "Roboto Serif";
 }
 body {
+    
     font-family: "Open Sans", "Helvetica Neue", "Helvetica",Arial,sans;
 }
 svg {
@@ -351,9 +352,13 @@ plates-1 .post:hover .post-tags1 a{
 /*
  * Slider
  */
+ #visual{
+    max-width: 100%;
+ }
 #btemplates-slider {
     padding: 0.25rem;
     position: relative;
+    max-width: 100%;
 }
 #btemplates-slider > svg {
     position: absolute;
