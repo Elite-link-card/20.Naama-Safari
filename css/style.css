@@ -635,7 +635,7 @@ blockquote p:first-child:first-letter {
     padding-right: 0.5rem;
 }
 .post-body img {
-    width: 150%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
